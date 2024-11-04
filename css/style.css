@@ -1,0 +1,598 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1, h2, h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+	background-color: #000000;
+	padding: 10px;
+	text-align: center;
+}
+
+nav ul{
+	text-align: center;
+
+}
+nav ul img:hover{
+	border: 1px solid #fff;
+}
+
+nav ul li{
+	display: inline;
+	padding: 5px 30px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	color: #fff;
+}
+
+nav ul img{
+	display: inline-block;
+	width: 60px;
+	margin-right: 40px;
+}
+
+.navigation{
+	display: inline-block;
+}
+
+nav .search-bar{
+	margin-left: 70px;
+	display: inline-block;
+	border: 1px solid #fff;
+}
+
+nav h3{
+	text-align: center;
+	font-size: 0.9em;
+	color: #ADADAD;
+	display: inline;
+	padding: 10px;
+}
+
+
+
+nav .fa-search{
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+nav h3:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+nav .fa-search:hover{
+	background-color: #444;
+}
+
+.color-bar{
+	display: flex;
+	flex-direction: row;
+	height: 15px;
+}
+
+.banner{
+	background-image: url("../image/Bagel.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 500px;
+	background-position: center;
+	
+}
+
+.banner .intro{
+	width: 50%;
+	padding: 150px;
+}
+
+.banner h1{
+	font-size: 2.3em;
+	font-weight: 600;
+}
+
+.banner h3{
+	font-size: 1.25em;
+}
+
+.banner .intro:hover{
+	text-decoration: underline;
+}
+
+.image-text{
+	background-image: url("../image/History.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 50%;
+	text-align: center;
+	padding: 300px 100px;
+	display: inline-block;
+}
+
+.banner + h2{
+	margin: 30px 150px;
+	font-size: 1.75em;
+	font-weight: 600;
+	
+}
+
+.image-text h1{
+	color: #fff;
+	font-size: 1.75em;
+	font-weight: 600;
+}
+
+.image-text img{
+	width: 60px;
+}
+
+.image-text h3{
+	color: #fff;
+	font-size: 1em;
+}
+
+.image-text:hover{
+	text-decoration: underline;
+	text-decoration-color: #fff;
+}
+
+.hist-list{
+	float: right;
+	width: 45%;
+	margin:20px;
+}
+
+.hist-list img{
+	width: 100px;
+}
+
+.hist-list h1{
+	font-size: 1.75em;
+	font-weight: 600;
+	color: #000;
+	
+}
+
+.hist-list h3{
+	color: #000;
+	font-size: 1em;
+}
+
+.hist-list .content{
+	width: 80%;
+	margin: 30px 0px;
+}
+
+.content:hover{
+	text-decoration: underline;
+}
+
+.button{
+	background-color: #fff;
+	border: 1px solid #000;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: 500;
+	padding: 10px;
+	display: flex;
+	margin: 50px auto;
+}
+
+.button:hover{
+	border: none;
+	background-color: #ddd;
+	padding: 11px;
+}
+
+.Preparation-Preservation{
+	width: 80%;
+	margin: 50px auto;
+}
+
+.Preparation-Preservation .info{
+	padding: 100px 50px;
+	margin: 50px 0px;
+}
+
+.Preparation-Preservation .info h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 2.75em;
+	font-weight: 600;
+	width: 50%;
+}
+
+.Preparation-Preservation .info h3{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 1em;
+	font-weight: 400;
+	width: 50%;
+}
+
+.Preparation-Preservation .b1{
+	background-image: url("../image/Preparation.jpg");
+	background-size: 100% 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+.Preparation-Preservation .b2{
+	background-image: url("../image/DSC03636.jpg");
+	background-size: 100% 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.Preparation-Preservation .b3{
+	background-image: url("../image/Preservation.jpg");
+	background-size: 100% 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.Preparation-Preservation .info:hover{
+	text-decoration: underline;
+	text-decoration-color: #fff;
+}
+
+.Preparation-Preservation + h2{
+	margin: 30px 150px;
+	font-size: 1.75em;
+	font-weight: 600;
+}
+
+.varities{
+	width: 80%;
+	margin: 50px auto;
+}
+
+.varities .style{
+	width: 32%;
+	display: inline-block;
+	background-color: #eee;
+	height: 420px;
+}
+
+.style-img{
+	display: inline-block;
+}
+
+.style-img{
+	width: 80px;
+}
+
+.info img{
+	width: 100px;
+}
+
+.style .info{
+	float: right;
+	width: 70%;
+	margin: 10px 20px 0px 0px;
+}
+
+.info h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+}
+
+.info h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+.newyork, .montreal{
+	margin-right: 15px;
+}
+
+.info:hover{
+	text-decoration: underline;
+}
+
+.stlouis:hover{
+	background-image: url("../image/Stlouis.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.montreal:hover{
+	background-image: url("../image/montreal.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.newyork:hover{
+	background-image: url("../image/ny_bagel.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+footer{
+	background-color: #000;
+	padding: 15px;
+}
+
+footer ul{
+	margin: 0px auto;
+	width: 90%;
+}
+
+footer ul li{
+	display: inline-block;
+	margin-left: 80px;
+}
+
+footer ul li h3{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+}
+
+footer ul li h2{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+footer ul li h4{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	font-weight: 400;
+}
+
+footer ul li a{
+	color: #F6BE06;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	font-weight: 400;
+}
+
+footer ul li .fa{
+	color: #fff;
+	text-decoration: none;
+	width: 20px;
+	text-align: center;
+}
+footer .moreinfo, .reference, .statement{
+	border-left: 1px solid #fff;
+	padding: 0px 50px 0px 5px;
+}
+
+footer ul + h3{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	font-weight: 400;
+	width: 80%;
+	margin: 50px auto;
+}
+
+footer ul + h3 a{
+	color: #F6BE06;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	font-weight: 400;
+	width: 80%;
+	margin: 50px auto;
+}
+
+footer ul li h3:hover{
+	text-decoration: underline;
+}
+
+footer ul li h3 a:hover{
+	text-decoration: underline;
+	text-decoration-color: #F6BE06;
+}
+
+footer ul li i:hover{
+	background-color: #F6BE06;
+	border-radius: 30%;
+	padding: 5px;
+}
+
+.socialmedia h4:hover{
+	text-decoration: underline;
+	text-decoration-color: #fff;
+}
+
+footer ul + h3 a:hover{
+	text-decoration: underline;
+	text-decoration-color: #F6BE06;
+}
+
+.jump-to{
+	display: inline-block;
+	margin-left: 830px;
+}
+
+.jump-to .drop-down{
+	font-size: 0.9em;
+	padding: 8px 10px;
+	color: #fff;
+	display: inline-block;
+	border: 1px solid #fff;
+	background-color: #000;
+	margin-right: -50px;
+}
+
+.jump-to .drop-down:hover{
+	color: #000;
+	background-color: #fff;
+}
+
+
+.about-bagel{
+	background-color: #ddd;
+	margin-top: -10px;
+	padding-top: 10px;
+	height:100px;
+}
+
+.about-bagel h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.75em;
+	font-weight: 600;
+	margin-left: 180px;
+	letter-spacing: 0.0001px;
+}
+
+.about-bagel .navigation{
+	margin-left: 170px;
+}
+.about-bagel .navigation li{
+	display: inline;
+	padding: 10px;
+	
+}
+
+.about-bagel .navigation li a{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	font-weight: 600;
+	color: #000;
+}
+
+.about-bagel .navigation li i{
+	color: #fff;
+	background-color: #000;
+	border-radius: 50%;
+	padding: 3px;
+}
+
+
+.about-bagel .navigation li i:hover{
+	background-color: #fff;
+	color: #000;
+	padding: 3px;
+}
+
+
+.about-bagel .navigation li a:hover{
+	background-color: #eee;
+	padding: 10px;
+}
+
+
+.banner img{
+	width:100%;
+	height: 500px;
+}
+
+.bagelinfo{
+	width: 80%;
+	margin: 50px auto;
+	display: flex;
+}
+
+
+.bagelintro{
+	display: inline-block;
+	width: 50%;
+	margin-right: 50px;
+}
+
+.bagelintro h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+}
+
+.bagelintro h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+.bagelinfo img{
+	margin-top: 80px;
+	width: 100%;
+	display: inline-block;
+	float: right;
+}
+
+.slogan{
+	width: 70%;
+	margin: 50px auto;
+	
+}
+.slogan h1{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3.25em;
+	font-weight: 800;
+	color: #000;
+}
+
+.title{
+	margin: 50px 150px;
+	font-size: 1.75em;
+	font-weight: 600;
+}
+
+.thinking, .planning, .execution{
+	width: 80%;
+	margin: 50px auto;
+	padding: 20px;
+	background-color: #ECE6D4;
+}
+
+.picture-selection, .topic-decision, .model-website, .content-filtering, .Landing-inner, .Information-Architecture, .logo-design, .references{
+	width: 90%;
+	margin: 50px auto;
+}
+.thinking .picture-selection .text{
+	width: 45%;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+
+.thinking .picture-selection img{
+	display: inline-block;
+	width: 45%;
+	border-radius: 10%;
+}
+
+
+.text h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.text h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+}
+
+.Landing-inner img, .Information-Architecture img{
+	border-radius: 2%;
+	width: 95%;
+	margin: 40px 0px;
+}
+
+.logo-design img{
+	margin: 20px 0px;
+	width: 10%;
+}
+
+
