@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 291.55 259.84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #754c24;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: Chalkboard-Bold, Chalkboard;
+        font-size: 55.09px;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        fill: #998675;
+      }
+
+      .cls-2 {
+        fill: khaki;
+      }
+
+      .cls-3 {
+        fill: #f0e58c;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="159.93" cy="88.02" fx="159.93" fy="88.02" r="120.88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff7e7" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#fbb03b"/>
+    </radialGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <ellipse class="cls-2" cx="143.95" cy="154.06" rx="104.8" ry="137.36" transform="translate(-31.16 271.49) rotate(-80.79)"/>
+        <ellipse class="cls-1" cx="159.42" cy="111.85" rx="132.13" ry="108.47"/>
+        <ellipse class="cls-3" cx="163.36" cy="82.21" rx="20.78" ry="14.46"/>
+      </g>
+      <text class="cls-4" transform="translate(41.86 129.64) rotate(43.2)"><tspan x="0" y="0">B</tspan></text>
+      <text class="cls-5" transform="translate(70.52 155.77) rotate(29.04)"><tspan x="0" y="0">A</tspan></text>
+      <text class="cls-5" transform="translate(108.83 176.05) rotate(15.78)"><tspan x="0" y="0">G</tspan></text>
+      <text class="cls-5" transform="translate(149.33 186.76) rotate(6.08)"><tspan x="0" y="0">E</tspan></text>
+      <text class="cls-5" transform="translate(183.78 190.15) rotate(-1.65)"><tspan x="0" y="0">L</tspan></text>
+    </g>
+  </g>
+</svg>
